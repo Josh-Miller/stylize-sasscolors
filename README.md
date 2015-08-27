@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/Josh-Miller/stylize-sasscolors.svg)](https://travis-ci.org/Josh-Miller/stylize-sasscolors)
+
 # Stylize SASS Colors
 
-Auto create a pattern based on the color variables in your sass files.
+Auto create a pattern for [Stylize](https://github.com/Josh-Miller/stylize) based on the color variables in your sass files.
 
 ## Getting started
 
@@ -12,8 +14,8 @@ $ npm i stylize-sasscolors --save
 
 ## Settings
 
-*file* (string)
-*keyColors* (array)
+- __file__ (string)
+- __keyColors__ (array)
 
 In your config.yml:
 
