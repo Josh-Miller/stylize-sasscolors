@@ -1,0 +1,31 @@
+{
+  "name": "stylize-sasscolors",
+  "version": "0.0.0",
+  "description": "Creates a visual Stylize pattern of sass color variables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/index"
+  },
+  "keywords": [
+    "styleguide",
+    "pattern",
+    "stylize",
+    "sass"
+  ],
+  "author": {
+    "name": "Josh Miller",
+    "email": "josh@josh-miller.me",
+    "url": "http://josh-miller.me/"
+  },
+  "license": "GPL-3.0",
+  "repository": "Josh-Miller/stylize-sasscolors",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-sass": "^3.2.0",
+    "sass-thematic": "0.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}

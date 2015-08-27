@@ -1,0 +1,14 @@
+<div>
+  {{#each colors}}
+    <div class="color-container {{#if keyColor}}key-color{{/if}}">
+      <div class="color-visual" style="background-color: #{{value}};">
+      </div>
+      <pre>${{variable}}</pre>
+
+      {{#if reference}}
+        <pre>references: ${{reference}}</pre>
+      {{/if}}
+
+    </div>
+  {{/each}}
+</div>
