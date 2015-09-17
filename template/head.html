@@ -5,7 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" type="text/css" href="{{cssPath}}">
+    <!-- <link rel="stylesheet" type="text/css" href="{{cssPath}}"> -->
+    <style type="text/css">
+      .color-container {
+        display: block;
+        width: 15%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        float: left;
+        overflow: hidden;
+        border-radius: 5px;
+        background-color: #f4f5f8;
+        border: 1px solid #efefef;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+      }
+      .color-container.key-color {
+        position: relative;
+        border: 1px solid #333;
+        box-shadow: 0 0 0 4px #333;
+      }
+      .color-container.key-color:before {
+        content: 'KEY';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 2px 4px;
+        border-radius: 5px 0 0 0;
+        font-family: 'helvetica', arial, sans-serif;
+        font-size: 10px;
+        color: #fff;
+        background-color: #333;
+      }
+
+      .color-visual {
+        height: 75px;
+        width: 100%;
+      }
+
+      pre {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+    </style>
 
   </head>
   <body class="{{ bodyClass }}">

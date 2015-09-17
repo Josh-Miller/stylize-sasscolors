@@ -56,7 +56,7 @@ var SassColors = function() {
 
     pattern.name = 'SASS Colors';
     pattern.fileName = 'colors.html';
-    pattern.data = {colors: colors, cssPath: path.join(__dirname, 'template/assets/colors.css')};
+    pattern.data = {colors: colors, cssPath: path.join(__dirname, './template/assets/colors.css')};
     pattern.category = 'styleguide';
     pattern.uri = '/public/styleguide/colors.html';
     pattern.id = 'colors';
