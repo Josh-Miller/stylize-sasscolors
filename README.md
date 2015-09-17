@@ -22,7 +22,7 @@ In your config.yml:
 ```
 plugins:
   stylize-sasscolors:
-    file: '../../../lulz/lulz.dev/public_html/sites/all/themes/lulzbot/src/scss/settings/_color.scss'
+    file: '../your_theme/_color.scss'
     keyColors:
       - green
       - blue
