@@ -1,6 +1,6 @@
 {
   "name": "stylize-sasscolors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Creates a visual Stylize pattern of sass color variables.",
   "main": "index.js",
   "scripts": {
